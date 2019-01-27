@@ -1,0 +1,15 @@
+{
+  "name": "monotonestrap",
+  "version": "1.0.0",
+  "description": "Small CSS toolkit used in Monotone Tab",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MStrap"
+  },
+  "author": "Thiago Silva",
+  "license": "ISC"
+}

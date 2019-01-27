@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-w, .notification-w{
+    width: fit-content;    
+    background-color: #f3f3f3;
+}
+
+.modal-w{
+    padding: 25px 25px 1px;
+}
+
+.md-head-w, .md-label-w, .modal-btn-w, button[class*="button-w"]{
+    font-weight: 200;
+    color: #3d405d;
+}
+
+.md-head-w{
+    font-size: 24px;
+    margin: 0;
+}
+
+.md-label-w{
+    font-size: 15px;
+}
+
+.md-field-w{
+    margin: 18px 0;
+}
+
+.md-input-w{
+    margin-top: 6px;
+}
+
+.md-input-w > input[type='text']{
+    width: 230px;
+    height: 33px;
+    background-color: #ececec;
+    border: 1px solid hsla(0,0%,69.8%,0);
+    outline: none;
+    padding: 0 10px;
+    color: #3d405d;
+    -webkit-transition: .4s ease;
+    transition: .4s ease;
+    font-weight: 300;
+}
+
+.md-input-w > input[type='text']:focus{
+	background-color: #fff;
+	border: 1px solid #3D405D;
+}
+
+.md-input-w > input[type='text']::placeholder{
+	color: #B2B2B2;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.modal-btn-container-w{
+    display: flex;
+}
+
+.btn-d-w > .modal-btn-w{
+    width:50%
+}
+
+.md-btn-w{
+    height: 67px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: .35s ease;
+    transition: .35s ease;
+    font-size: 14px;
+    font-weight: 300;
+    color: #3d405d;
+    cursor: pointer;
+}
+
+.md-btn-w:hover {
+    color: #f8f8f8;
+    background-color: #3d405d;
+}
+
+.notification-w{
+    border-left: 4px solid #3d405d;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.nt-content-w{
+    margin-left: 20px;
+}
+
+.nt-content-w > .nt-title-w, .nt-content-w > .nt-body-w{
+    color: #707070;
+    margin: 12px 0;
+}
+
+.nt-title-w{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nt-body-w{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.nt-close-btn-w{
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 27px;
+    background-color: #D2D2D2;
+    color: #868686;
+    user-select: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.nt-close-btn-w:hover{
+    color: #fff;
+    background-color: #3D405D;
+}
+
+.button-w{
+    background: transparent;
+    border: 1px solid #3d405d;
+    outline: none;
+    padding: 9px 20px;
+    cursor: pointer;
+    transition: .23s ease;
+}
+
+.button-w:hover{
+    background-color: #3d405d;
+    color: #fff;
+}
+
+.button-w[class*="disabled"]{
+    border: 1px solid #949494;;
+    cursor: not-allowed;
+    background-color: #949494;;
+    color: #fff;
+}
